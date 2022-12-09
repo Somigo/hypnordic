@@ -1,0 +1,67 @@
+.container-floorplans {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* griden laves her */
+    gap: 3rem;
+    
+    margin-top: 120px;
+}
+
+.container-floorplan1:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan2:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan3:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan4:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan5:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan6:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan7:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan8:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan9:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan10:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan11:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan12:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan13:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan14:hover {
+    background-color: lightgray;
+}
+
+.container-floorplan15:hover {
+    background-color: lightgray;
+}

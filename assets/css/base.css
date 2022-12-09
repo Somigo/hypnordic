@@ -1,0 +1,9 @@
+/* skal indholde design regler som font typer. det er default på designet */
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+

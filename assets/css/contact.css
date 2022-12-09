@@ -1,0 +1,123 @@
+.main-contact {
+  background-color: var(--color-accent);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  font-weight: bold;
+}
+
+.departments {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  margin-top: 20%;
+  margin-bottom: 30%;
+
+  background-color: var(--color-accent);
+}
+
+
+.title {
+  grid-column: span 2;
+
+  color: var(--color-light);
+
+  display: flex;
+  justify-content: center;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+
+  color: var(--color-light);
+
+  text-decoration: none;
+
+  margin: 5% 20% 0 5%;
+
+  font-size: 3rem;
+}
+
+.number:hover {
+  color: #FFB703;
+}
+
+.roskilde {
+  border-bottom: thin solid var(--color-light);
+  margin: 0 24% 0 10%;
+
+  display: flex;
+  justify-content: center;
+
+  color: #FFB703;
+}
+
+
+
+.horsens {
+  border-bottom: thin solid var(--color-light);
+  margin: 0 24% 0 10%;
+
+  display: flex;
+  justify-content: center;
+
+  color: #FFB703;
+}
+
+.kolding {
+  border-bottom: thin solid var(--color-light);
+  margin: 0 24% 0 10%;
+
+  display: flex;
+  justify-content: center;
+
+  color: #FFB703;
+}
+
+.aalborg {
+  border-bottom: thin solid var(--color-light);
+  margin: 0 24% 0 10%;
+
+  display: flex;
+  justify-content: center;
+
+  color: #FFB703;
+
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #FFB703;
+  color: var(--color-light);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.fill-out-form {
+  color: var(--color-light);
+
+  
+}
+
+.forms {
+  margin-left: 20%;
+  margin-top: 20%;
+}
+
+#errorMsg {
+  color: red;
+}

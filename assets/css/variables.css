@@ -1,0 +1,13 @@
+/* kommer til at indholde variabler */
+:root {
+    --color-base: #023047;
+    --color-accent: #003566;
+    --color-dark: #000000;
+    --color-light: #ffffff;
+
+    --font-base: Verdana, sans-serif;
+    --font-accent: sans-serif;
+
+    --border-thin: thin solid var(--color-dark);
+
+}

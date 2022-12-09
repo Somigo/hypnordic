@@ -1,0 +1,38 @@
+footer {
+    background-color: var(--color-accent);
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    color: var(--color-light);
+
+    width: 100%;
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.hovedkontor-horsens {
+    border-bottom: thin solid var(--color-light);
+}
+
+.footer-kolding {
+    border-bottom: thin solid var(--color-light);
+}
+
+.footer-roskilde {
+    border-bottom: thin solid var(--color-light);
+}
+
+.footer-aalborg {
+    border-bottom: thin solid var(--color-light);
+}
+

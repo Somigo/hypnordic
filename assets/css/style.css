@@ -1,0 +1,11 @@
+/* Her linker jeg alle css filerne sammen */
+@import url("base.css");
+@import url("layout.css");
+@import url("footer.css");
+@import url("menu.css");
+@import url("slider.css");
+@import url("typografi.css");
+@import url("variables.css");
+@import url("gallery.css");
+@import url("floorplans.css");
+@import url("contact.css");

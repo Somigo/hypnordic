@@ -1,0 +1,50 @@
+.logo {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: var(--color-base);
+    
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    padding: 30px 0;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none; /* text-decoration: none; fjerner linjer under hyperlinks i nav bar liste  */
+    color: var(--color-light); 
+}
+
+nav ul li a:hover {
+    color: #FFB703;
+}
+
+.logo {
+    color: var(--color-light);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px 36px;
+}
+
+/* sticky navbar */
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* sticky navbar slut */  
+

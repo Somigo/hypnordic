@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="script.js" defer></script>
+    <script src="form.js" defer></script>
+    <script src="nav.js" defer></script>
+    <title>HypNordic</title>
+
+</head>
+<body>
+
+    <header>
+       <nav class="menu" id="navbar">
+            <a href="index.html" class="logo">HypNordic</a>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="floorplans.html">FLOORPLANS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+       </nav> 
+    </header>
+
+    <!-- Her kommer slideren -->
+    <div class="slider-container">
+        <figure class="slide fade">
+            <img src="assets/images/house1.jpg" alt="Et fint billed af et berg">
+            <h2 class="text">Billed 1</h2>
+        </figure>
+        <figure class="slide fade">
+            <img src="assets/images/house2.jpg" alt="Et fint billed af et is berg">
+            <h2 class="text">Billed 2</h2>
+        </figure>
+        <figure class="slide fade">
+            <img src="assets/images/house1.jpg" alt="Et fint billed af et berg">
+            <h2 class="text">Billed 3</h2>
+        </figure>
+        <figure class="slide fade">
+            <img src="assets/images/house2.jpg" alt="Et fint billed af et berg">
+            <h2 class="text">Billed 4</h2>
+        </figure>
+        
+        <!-- previous og Next knapper -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+</body>
+</html>
